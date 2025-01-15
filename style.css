@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", serif;
+    font-style: normal;
+    max-width: 1920px;
+}
+
+header {
+    background-color: #f6c7d18a;
+}
+
+.header-section {
+    display: flex;
+    gap: 97px;
+    padding: 50px 240px 0 240px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text-1 {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.header-text-2 {
+    font-size: 18px;
+    color: rgb(138, 138, 138);
+    margin: 32px 0;
+    text-align: justify;
+}
+
+.header-button {
+    border-radius: 8px;
+    border: none;
+    padding: 20px 43px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #E55473;
+}
+
+.header-button>a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-img>img {
+    height: 800px;
+    width: 635px;
+}
+
+/* minimum media query */
+@media screen and (max-width:676px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-section {
+        flex-direction: column;
+        padding: 10px 30px 0 30px;
+        background-color: #f6c7d18a;
+        height: auto;
+    }
+
+    .header-text-1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    #button-id {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .header-img>img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .header-img {
+        text-align: center;
+
+    }
+}
+
+@media screen and (min-width:676px) and (max-width:1240px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-section {
+
+        padding: 20px 60px 0 60px;
+        background-color: #f6c7d18a;
+        height: auto;
+    }
+
+    .header-text-1 {
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    #button-id {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header-img>img {
+        width: 500px;
+        height: 700px;
+    }
+}
+
+@media screen and (min-width:1240px) and (max-width:1700px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-section {
+
+        padding: 50px 100px 0 100px;
+        background-color: #f6c7d18a;
+        height: auto;
+    }
+
+    .header-text-1 {
+        font-size: 60px;
+        font-weight: 900;
+    }
+
+    .header-img>img {
+        width: 550px;
+        height: 700px;
+    }
+}
+
+/* end of header style */
